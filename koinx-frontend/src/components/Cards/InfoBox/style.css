@@ -1,0 +1,91 @@
+.realised-profit-loss {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+    width: 427px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .title {
+    color: #333333;
+    font-family: "Inter-SemiBold", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .view-more {
+    color: #0052fe;
+    font-family: "Inter-Medium", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .view-more:hover {
+    text-decoration: underline;
+  }
+  
+  .trending-coins-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .trending-coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .trending-coin:last-child {
+    border-bottom: none;
+  }
+  
+  .coin-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .coin-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .coin-name {
+    font-family: "Inter-Medium", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .coin-symbol {
+    color: #888888;
+    font-size: 14px;
+  }
+  
+  .coin-percentage {
+    font-family: "Inter-SemiBold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .coin-percentage.positive {
+    color: #28a745;
+  }
+  
+  .coin-percentage.negative {
+    color: #dc3545;
+  }
